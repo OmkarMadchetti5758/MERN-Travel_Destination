@@ -1,0 +1,7 @@
+{
+    "env": {
+        "DB_USER": "omkarmadchetti",
+        "DB_PASSWORD": "Omkar03",
+        "DB_NAME": "TravelDestination"
+    }
+}
