@@ -41,7 +41,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@nodejs.ujmv0me.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority&appName=NodeJs`
+    `mongodb+srv://omkarmadchetti:Omkar03@nodejs.ujmv0me.mongodb.net/TravelDestination?retryWrites=true&w=majority&appName=NodeJs`
   )
   .then(() => {
     console.log('Connected')
@@ -50,3 +50,5 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
+
+  //`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@nodejs.ujmv0me.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority&appName=NodeJs`
